@@ -19,7 +19,7 @@ export default class RecipeForm extends TrackerReact(Component) {
 			if(error){
 				console.log('Error inserting data');
 			} else {
-				window.location = "/";
+				FlowRouter.go('/');
 			}
 		});
 	}
